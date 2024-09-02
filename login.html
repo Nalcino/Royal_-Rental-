@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./imgs/royalLogoIcon.png" type="image/x-icon">
+
+    
+</head>
+<body>
+
+    <!-- Botão para redirecionar para outra página -->
+    <div class="redirect-button">
+        <button onclick="window.location.href='index.html'">Voltar Para Home</button>
+    </div>
+
+
+    <div class="login-container">
+        <h2>Digite o seu e-mail e senha</h2>
+        <form>
+            <div class="input-group">
+                <input type="email" placeholder="E-mail" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Senha" id="password" required>
+                <span id="togglePassword" class="toggle-password">&#128065;</span>
+            </div>
+            <div class="forgot-password">
+                <a href="#">Esqueci minha senha</a>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+        <div class="register-link">
+            <p>Não tem conta? <a href="#">comece agora</a></p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

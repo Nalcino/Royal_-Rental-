@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Royal Home</title>
+    <link rel="icon" href="./imgs/royalLogoIcon.png" type="image/x-icon">
+     <link rel="stylesheet" href="./css/styleHome.css" type="text/css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/js/script2.js" defer></script>
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Nav Bar vem aqui no header-->
+        <div class="nav-bar">
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#sobre"> Sobre nós </a></li>
+                    <li><a href="#dif"> Diferencial </a></li>
+                    <li><a href="#destaques"> Destaques </a></li>
+                    <li><a href="#exclusivos"> Exclusivos </a></li>
+                </ul>
+            </div>
+            <div class="nav-logo">
+                <a href="#"  id="royalLogoDiv"><img src="/imgs/royalLogoIcon.png"/></a>
+            </div>
+            <div class="botoes-nav">
+                <div class="login-btn">
+                    <a href="./login.html">Login</a>
+                </div>
+                <div class="cadastro-btn">
+                    <a href="#">Cadastrar</a>
+                </div>
+            </div>
+            <div class=" login-btn login-btn2">
+                <a href="./login.html">Login</a>
+            </div>
+    
+    
+    
+    
+            <div class="nav-logo nav-logo2">
+                <a href="#"  id="royalLogoDiv"><img src="/imgs/royalLogoIcon.png"/></a>
+            </div>
+
+
+            
+    
+    
+    
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"> 
+                    <img class="icon-Menu" src="imgs/menuHamburguer.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#sobre"> Sobre nós </a></li>
+                <li><a href="#dif"> Diferencial </a></li>
+                <li><a href="#destaques"> Destaques </a></li>
+                <li><a href="#exclusivos"> exclusivos </a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="slogan">
+                <p>DESCUBRA O EXTRAORDiNÁRIO</p>
+                <p>EXPERIMENTE O <span id="exclusivo">EXCLUSIVO</span></p>
+            </div>
+            <div class="forms">
+                <form class="forms-btn">
+                    <div class="collum">
+                        <label for="local">Local</label>
+                        <div class="input-local">
+                            <input type="text" placeholder="Local" name="local" maxlength="200" id="inputLocal">
+                            <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="collum">
+                        <label for="localRetirada">Local de Retirada</label>
+                        <div class="input-local">
+                            <input type="text" placeholder="Local" name="local" maxlength="200" id="inputLocal">
+                            <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="collum">
+                        <label for="data">Data</label>
+                        <div class="input-calendar">
+                            <input type="text" placeholder="dd/mm/yyyy" name="data" maxlength="200" id="inputData">
+                            <i class="fa fa-calendar-o fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="collum"> 
+                        <label for="dataRetirada">Data de Retirada</label>
+                        <div class="input-calendar">
+                            <input type="text" placeholder="dd/mm/yyyy" name="data" maxlength="200" id="inputData">
+                            <i class="fa fa-calendar-o fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </form>
+                <div class="btn-forms">
+                    <div class="search-btn">
+                        <a href="#">Procurar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <a name="sobre" id="sobre"></a>
+    <section class="sessão-sobre_nos">
+        <h1> SOBRE NÓS</h1>
+        <div class="content1">
+            <div id="fundo_cinza">
+                <img src="/imgs/images/imagens-carros-frota/porsche_images/porshe.png" alt="porsche">
+            </div>
+            <div class="text">
+                <h2>Uma Experiência Única em Cada</h2> 
+                <span>detalhe</span>
+                <p>Nossa missão é proporcionar uma experiência de locação e venda de veículos de luxo inigualável, atendendo às necessidades mais exigentes dos nossos clientes com serviços personalizados, segurança de ponta e um compromisso inabalável com a excelência.</p>
+                <a href="#" class="more">Saiba mais</a>
+            </div>
+        </div>
+        <br />
+        <a name="dif" id="dif"></a>
+    </section>
+
+    <section class="sessão-diferencial">
+            <h2 class="diferencial-titulo">DIFERENCIAL</h2>
+            <div class="diferenciais">
+                <div class="diferencial">
+                    <img src="imgs/images/imagens_topicos/direcao (1).png" alt="Pós-Venda Premium">
+                    <h3>Pós-Venda Premium</h3>
+                    <p>Proporcionamos garartia estendida, e programas de fidelidade que asseguram que seu carro continue em perfeitas condições por muitos anos.</p>
+                </div>
+                <div class="diferencial">
+                    <img src="imgs/images/imagens_topicos/chave-do-carro.png" alt="Veículos de Alto Padrão">
+                    <h3>Veículos de Alto Padrão</h3>
+                    <p>Nossa frota é composta apenas pelos veículos mais sofisticados e de alta performance.</p>
+                </div>
+                <div class="diferencial">
+                    <img src="imgs/images/imagens_topicos/aluguel.png" alt="Test drive">
+                    <h3>Test drive</h3>
+                    <p>Desde o momento da sua chegada até a entrega do veículo, cada detalhe é pensado para proporcionar uma experiência única e exclusiva.</p>
+                </div>
+            </div>
+            <a href="#" class="read-more">Saiba mais</a>
+    </section>
+    <a name="destaques" id="destaques">
+
+    <section class="frota">
+        <div class="container-top">
+            <div class="img-lambo">
+                <img src="/imgs/images/imagens_fundo/lambof-fundo.jpg" alt="">
+            </div>
+            <div class="title-top">
+                <p class="title">Destaques da semana</p>
+            </div>
+        </div>
+        <div class="container-carros">
+            <div class="cars-frota">
+                <a href="#" class="icon-arrow"><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
+                <div class="car-one">
+                    <a href="#"><img src="/imgs/images/imagens_logo/mini-logo-porsche.png" alt="" class="mini-logo"></a>
+                    <div class="image-car">
+                        <img src="/imgs/images/imagens-carros-frota/porsche_images/porsche_gt3rs.png" class="porsche-gt3" alt="">
+                    </div>
+                    <div class="baixo-left">
+                        <p class="name">Porsche</p>
+                        <p class="model">911 GT3 RS</p>
+                    </div>
+                    <div class="baixo-right">
+                        <p class="price">R$ 12.299,90/Dia</p>
+                        <div class="btn-right">
+                            <a href="#" class="plans">Plans</a>
+                            <a href="venda.html" class="buy">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-one">
+                    <a href="#"><img src="/imgs/images/imagens_logo/aston.png" alt="" class="mini-logo-aston"></a>
+                    <div class="image-car">
+                        <img src="/imgs/images/imagens-carros-frota/aston_images/Aston-Martin-DBS-Superleggera-Volante-Transparent-PNG.png" class="astonmartin" alt="">
+                    </div>
+                    <div class="baixo-left">
+                        <p class="name">Aston</p>
+                        <p class="model">Superleggera</p>
+                    </div>
+                    <div class="baixo-right">
+                        <p class="price">R$ 3.150,75/Dia</p>
+                        <div class="btn-right">
+                            <a href="#" class="plans">Plans</a>
+                            <a href="venda.html" class="buy">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-one">
+                    <a href="#"><img src="/imgs/images/imagens_logo/mini-logo-porsche.png" alt="" class="mini-logo"></a>
+                    <div class="image-car">
+                        <img src="/imgs/images/imagens-carros-frota/porsche_images/porsche_taycan.png" class="porsche-taycan" alt="">
+                    </div>
+                    <div class="baixo-left">
+                        <p class="name">Porsche</p>
+                        <p class="model">Taycan</p>
+                    </div>
+                    <div class="baixo-right">
+                        <p class="price">R$ 6.127,80/Dia</p>
+                        <div class="btn-right">
+                            <a href="#" class="plans">Plans</a>
+                            <a href="venda.html" class="buy">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="icon-arrow"><i class="fa fa-arrow-circle-right fa-3x" aria-hidden="true"></i></a>
+            </div>
+            <div class="btn-frota">
+                <a href="./frota.html" class="nossa-frota">Nossa frota</a>
+            </div>
+        </div>
+    </section>
+    <section class="sessão-marcas">
+        <div class="texto">
+            <h1>Exclusividade sobre rodas</h1>
+            <p>Explorando a excelência das marcas que definem o luxo automotivo</p>
+        </div>
+        <aside>
+            <div class="montadoras">
+                <div class="primeira-linha">
+                    <div class="aston"></div>
+                    <div class="ferrari"></div>
+                    <div class="porsche"></div>
+                </div>
+                <div class="segunda-linha">
+                    <div class="pagani"></div>
+                    <div class="bugatti"></div>
+                    <div class="lambo"></div>
+                </div>
+            </div>
+            <div class="botao_container">
+                <a href="#" class="more-content">Saiba mais</a>
+            </div>
+        </aside>     
+    </section>
+
+    <!-- parte do footer -->
+    <div class="fmain-content">
+    </div>
+
+    <!-- Seção de Avaliações de Clientes -->
+    <div class="customer-reviews">
+        <button class="arrow left-arrow">&#10094;</button> <!-- Seta para a esquerda -->
+        <div class="reviews-carousel">
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Dawyne Johnson.jpg" alt="Foto de Dawyne Johnson">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Excelente serviço, altamente recomendado!" - Dwayne Johnson</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Bill Gates.jpg" alt="Foto de Bill Gates">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"A experiência de compra nesta loja é realmente excepcional. A equipe é os carros representam o auge da inovação e qualidade." - Bill Gates</div>
+            </div>
+            <div class="review-card"> 
+                <img class="review-circle" src="./imgs/image_footer/Jeff Bezos.jpeg" alt="Foto de Jeff Bezos">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Nesta loja, você encontra mais do que carros de luxo; encontra uma experiência premium. ." - Jeff Bezos</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Selena Gomez.jpg" alt="Foto de Selena Gomez">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Recomendo para todos os meus amigos!." - Selena Gomez</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Musk.jpg" alt="Foto de Elon Musk">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Na loja, você não está apenas comprando um carro de luxo; está investindo em uma experiência futurista." - Elon Musk</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Silvio Santos.jpg" alt="Foto de Silvio Santos">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Atendimento nota dez e veículos que são um verdadeiro espetáculo.  é show de bola!." - Silvio Santos</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Ariana Grande.jpg" alt="Foto de Ariana Grande">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Excelente atendimento! A equipe é super profissional e conhecedora dos carros." - Ariana Grande</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Luan Santana.jpg" alt="Foto de Luan Santana">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Ótima loja com uma equipe dedicada. A compra do meu carro foi perfeita do início ao fim." - Luan Santana</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Beyoncé.jpg" alt="Foto de Beyoncé">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Atendimento personalizado e uma variedade impressionante de carros. Recomendo muito!." - Beyoncé</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Mark Zuckerberg.jpg" alt="Foto de Mark Zuckerberg">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Melhor experiência de compra online que já tive." - Mark Zuckerberg</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Will Smith.jpg" alt="Foto de Will Smith">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Fiquei muito satisfeito com a compra. A equipe foi amigável e o carro está em ótimo estado." - Will Smith </div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Taylor Swift.jpg" alt="Foto de Taylor Swift">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Ótimo serviço e carros de luxo impecáveis. A equipe realmente entende do que está vendendo." - Taylor Swift
+                </div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Cristiano Ronaldo.jpg" alt="Foto de Cristiano Ronaldo">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Experiência de compra top! Profissionais atenciosos e eficientes. ." - Cristiano Ronaldo</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Gusttavo Lima.jpg" alt="Foto de Gusttavo Lima">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Compra tranquila e sem stress. O atendimento foi excelente e o carro é maravilhoso." - Gusttavo Lima</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Eminem.png" alt="Foto de Eminem">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"A loja superou minhas expectativas. Atendimento cordial e carros de qualidade superior." - Eminem</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Mano Brown.jpg" alt="Foto de Mano Brown">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Aqui na loja, o atendimento é firmeza e o carro é do jeito que você merece: top de linha, como a gente sempre sonhou." - Mano Brown </div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Emicida.jpg" alt="Foto de Emicida">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Na loja, a compra do carro é quase uma poesia. Atendimento que entende a sua vibe e veículos que fazem o seu sonho virar realidade." - Emicida</div>
+            </div>
+            <div class="review-card">
+                <img class="review-circle" src="./imgs/image_footer/Zeca Pagodinho.jpg" alt="Foto de Zeca Pagodinho">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">"Na loja, o atendimento é uma festa e o carro é daquele jeito: bonito e no ponto. Chega lá e vê que é tudo de bom, meu irmão!." - Zeca Pagodinho.</div>
+            </div>
+
+
+
+        </div>
+        <button class="arrow right-arrow">&#10095;</button> <!-- Seta para a direita -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+           
+            <div class="footer-content">
+                
+                <div class="footer-logo-social">
+                    <div class="flogo">
+                        <img src="./imgs/image_footer/Flogo.png" alt="Logo Royal">
+                    </div>
+                    <div class="social-media">
+                        <a href="#" class="fsocial-icon"><img src="./imgs/image_footer/whats.png" alt="WhatsApp"></a>
+                        <a href="#" class="fsocial-icon"><img src="./imgs/image_footer/insta.png" alt="Instagram"></a>
+                        <a href="#" class="fsocial-icon"><img src="./imgs/image_footer/link.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+                <!-- Navegação do Footer -->
+                <nav class="footer-nav">
+                    <a href="#">História</a>
+                    <a href="#">Contatos</a>
+                    <a href="#">Termos & Condições</a>
+                    <a href="#">Política de Privacidade</a>
+                </nav>
+            </div>
+            <!-- Linha de Separação -->
+            <div class="footer-line"></div>
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                &copy; 2024 Royal. Todos os Direitos Reservados.
+            </div>
+        </div>
+    </footer>
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
+</html>
